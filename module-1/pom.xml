@@ -14,6 +14,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>module-1</name>
     <description>module-1</description>
+    <packaging>jar</packaging>
 
     <properties>
         <sofa.ark.version>2.2.14</sofa.ark.version>
@@ -38,7 +39,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
@@ -51,7 +51,6 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <scope>provided</scope>
         </dependency>
         <!-- 添加jstl标签库依赖模块 -->
         <dependency>
@@ -117,7 +116,6 @@
                 </configuration>
             </plugin>
             <!--  构建出普通 SpringBoot fatjar，支持独立部署时使用，如果不需要可以删除  -->
-
             <plugin>
                 <!-- 原springboot 打包插件-->
                 <groupId>org.springframework.boot</groupId>

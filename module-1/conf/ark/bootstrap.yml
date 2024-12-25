@@ -1,0 +1,40 @@
+# excludes 中配置 ${groupId}:{artifactId}:{version}, 不同依赖以 - 隔开
+# excludeGroupIds 中配置 ${groupId}, 不同依赖以 - 隔开
+# excludeArtifactIds 中配置 ${artifactId}, 不同依赖以 - 隔开
+excludes:
+  - org.codehaus.janino:janino
+  - org.reflections:reflections
+  - org.sitemesh:sitemesh
+  - com.github.axet:kaptcha
+  - redis.clients:jedis
+  - net.sourceforge.jexcelapi:jxl
+  - org.aeonbits.owner:owner
+  - com.belerweb:pinyin4j
+  - com.101tec:zkclient
+excludeGroupIds:
+  - com.alipay*
+  - org.springframework*
+  - com.alibaba*
+  - org.projectlombok*
+  - com.fasterxml*
+  - com.google.code*
+  - com.google.common*
+  - com.google.gson*
+  - com.google.guava*
+  - cn.hutool*
+  - org.apache.commons*
+  - org.aspectj*
+  - org.apache*
+  - org.hibernate.validator*
+  - org.jsoup*
+  - javax*
+excludeArtifactIds:
+  - commons-collections
+  - commons-httpclient
+  - commons-io
+  - commons-lang
+  - commons-validator
+  - commons-digester
+  - commons-beanutils
+  - commons-codec
+  - commons-fileupload

@@ -2,4 +2,4 @@
 #integrateBizURLs:
 # 打包部署文件夹下所有模块ark-biz.jar
 integrateLocalDirs:
-  - ./koupleless
+  - ../koupleless-jsp-test/base/koupleless

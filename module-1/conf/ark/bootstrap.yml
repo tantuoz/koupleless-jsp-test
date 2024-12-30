@@ -11,6 +11,11 @@ excludes:
   - org.aeonbits.owner:owner
   - com.belerweb:pinyin4j
   - com.101tec:zkclient
+  - javax.servlet:javax.servlet-api
+  - com.sun.mail:javax.mail
+  - junit:junit
+  - com.github.ben-manes.caffeine:caffeine
+  - net.dongliu:apk-parser
 excludeGroupIds:
   - com.alipay*
   - org.springframework*
@@ -22,12 +27,19 @@ excludeGroupIds:
   - com.google.gson*
   - com.google.guava*
   - cn.hutool*
-  - org.apache.commons*
   - org.aspectj*
   - org.apache*
   - org.hibernate.validator*
   - org.jsoup*
-  - javax*
+  - org.slf4j*
+  - ch.qos.logback*
+  - com.itextpdf*
+  - javax.annotation*
+  - javax.validation*
+  - javax.inject*
+  - io.springfox*
+  - org.ow2.asm*
+  - javax.media.jai*
 excludeArtifactIds:
   - commons-collections
   - commons-httpclient
@@ -38,3 +50,4 @@ excludeArtifactIds:
   - commons-beanutils
   - commons-codec
   - commons-fileupload
+  - commons-net
